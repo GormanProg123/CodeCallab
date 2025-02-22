@@ -1,17 +1,10 @@
-import { useSelector, useDispatch } from 'react-redux'
-import { RootState } from './store/store'
-import { increment, decrement } from './store/slices/exampleSlice'
-
+import { Header } from './components/Header'
+import { MainContent } from './components/MainContent'
 export const App = () => {
-  const count = useSelector((state: RootState) => state.example.count)
-  const dispatch = useDispatch()
-
   return (
-    <div>
-      <h1>Redux Toolkit + Persist</h1>
-      <p>Count: {count}</p>
-      <button onClick={() => dispatch(increment())}>+</button>
-      <button onClick={() => dispatch(decrement())}>-</button>
+    <div className="min-h-screen flex flex-col">
+      <Header />
+      <MainContent />
     </div>
   )
 }
