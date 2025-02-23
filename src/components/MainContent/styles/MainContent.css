@@ -6,9 +6,10 @@
 .main-content h2 {
   font-size: 1.75rem;
   margin-bottom: 16px;
+  color: #ffffff;
 }
 
 .main-content p {
   font-size: 1rem;
-  color: #555;
+  color: #ffffff;
 }

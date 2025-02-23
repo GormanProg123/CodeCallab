@@ -7,13 +7,23 @@
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "dev:server": "tsx server/index.ts"
   },
   "dependencies": {
+    "@prisma/client": "^6.4.1",
     "@reduxjs/toolkit": "^2.5.1",
+    "axios": "^1.7.9",
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "monaco-editor": "^0.52.2",
+    "pg": "^8.13.3",
+    "prisma": "^6.4.1",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
+    "react-monaco-editor": "^0.58.0",
     "react-redux": "^9.2.0",
+    "react-toastify": "^11.0.3",
     "redux-persist": "^6.0.0"
   },
   "devDependencies": {
@@ -32,6 +42,7 @@
     "eslint-plugin-react-refresh": "^0.4.18",
     "globals": "^15.14.0",
     "prettier": "^3.5.2",
+    "tsx": "^4.19.3",
     "typescript": "~5.7.2",
     "typescript-eslint": "^8.22.0",
     "vite": "^6.1.0"
