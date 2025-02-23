@@ -1,0 +1,16 @@
+.terminal-container {
+  background-color: #2d2d2d;
+  color: #f8f8f2;
+  padding: 20px;
+  border-radius: 8px;
+  font-family: 'Courier New', Courier, monospace;
+  margin-top: 10px;
+  height: 150px;
+  overflow-y: auto;
+  width: 100%;
+}
+
+.terminal-container pre {
+  margin: 0;
+  font-size: 14px;
+}
